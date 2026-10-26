@@ -1,7 +1,7 @@
 # SNHU_CS340
 This repository is for my CS340 reflection Journal:
 
-**How do you write programs that are maintainable, readable, and adaptable? Especially consider your work on the CRUD Python module from Project One, which you used to connect the dashboard widgets to the database in Project Two. What were the advantages of working in this way? How else could you use this CRUD Python module in the future? **
+**How do you write programs that are maintainable, readable, and adaptable? Especially consider your work on the CRUD Python module from Project One, which you used to connect the dashboard widgets to the database in Project Two. What were the advantages of working in this way? How else could you use this CRUD Python module in the future?**
 When writing programs, I ensure my code is structured in a way other developers can easily follow along with clear naming conventions. The cookie cutter CRUD Python module at the start of this course helped me organize my workflow for both Projects.
 
 **How do you approach a problem as a computer scientist? Consider how you approached the database or dashboard requirements that Grazioso Salvare requested. How did your approach to this project differ from previous assignments in other courses? What techniques or strategies would you use in the future to create databases to meet other client requests?** 
