@@ -96,8 +96,10 @@ Dashboard Filtering
 
 **Tests**
 Testing was used to verify the Python CRUD Module and Grazioso Salvare Rescue Dashboard functioned as intended. 
+
 **CRUD testing**
 The CRUD_Python_Module.py file was tested using Jupyter Notebook to verify Create, Read, Update, and Delete operations worked. The Create test returned TRUE, showing French Bulldog was successfully inserted into MongoDB. The Read test queried for animal ID “A123456” which confirmed the module can successfully retrieve new records. The update test changed the outcome_type from “Adoption” to “Transfer”. The delete test removed the test record and returned a deleted count of 1. 
+
 **Dashboard testing**
 The ProjectTwoDashboard.ipynb notebook was tested to verify the interactive dashboard displayed animal records and was responsive to user commands.
 1)	Water Rescue
@@ -107,4 +109,5 @@ The ProjectTwoDashboard.ipynb notebook was tested to verify the interactive dash
 5)	Interactive Data Table
 6)	Pie Chart
 7)	Geolocation Map
+
 While in development, an issue occurred in MongoDB filtering queries where $in operator was incorrectly entered as “Sin” which caused for certain data to not populate. This is one of many examples of why testing is important to ensure an application runs successfully. 
