@@ -66,7 +66,14 @@ Matplotlib – Support for plotting library into the dashboard.
 The Grazioso Salvare Rescue Dashboard uses the Python CRUD module to retrieve animal shelter records from MongoDB and display through an interactive web application.
 The AnimalShelter class is imported from CRUD_Python_Module.py and instantiated using the MongoDB username and password.
 
+<img width="975" height="630" alt="image" src="https://github.com/user-attachments/assets/195e4d24-2d53-4856-9a20-ad0c74a9125f" />
+
+
 Once connected, the read() method retrieves animal records from the database. The returned records are converted into Pandas DataFrame to use in the dashboard.
+
+<img width="975" height="191" alt="image" src="https://github.com/user-attachments/assets/8b09a3dd-fd29-4951-a22e-5f4eb2262cb6" />
+
+
 The empty dictionary {} retrieves all available records without a filter.
 
 **The dashboard provides four filter options:**
@@ -75,24 +82,51 @@ The empty dictionary {} retrieves all available records without a filter.
 3)	Disaster or Individual Tracking: Displays dogs matching requirements for Disaster Response or Individual Tracking.
 4)	Reset: Removes filters and returns the dashboard to view all the animal dataset.
 
+<img width="975" height="229" alt="image" src="https://github.com/user-attachments/assets/ce4ad8be-d928-43be-a8e3-c45cb7875815" />
+
+
 The dashboard includes three main components for user interactions.
+
+<img width="986" height="255" alt="image" src="https://github.com/user-attachments/assets/53118c82-0129-40f9-b7b2-b8b32e257e15" />
+
 
 Interactive Data Table: Displays animal records retrieved from MongoDB
 
+<img width="616" height="446" alt="image" src="https://github.com/user-attachments/assets/5005c3a5-c1d2-4426-b324-ace98b977e1d" />
+
+
 Pie Chart: Displays the distribution of the most common animal breeds in the area. 
+
+<img width="975" height="501" alt="image" src="https://github.com/user-attachments/assets/a309d1e0-bfc5-4a26-8225-b1f9aec687e0" />
+
 
 Geolocation Map: Displays geographic location of selected animal using latitude/longitude coordinates.
 
 **Code Example**
 A doc can be inserted into the animals collection using the create() method:
 
+<img width="975" height="302" alt="image" src="https://github.com/user-attachments/assets/2758fef1-4ae9-4d18-8630-efaa208c20e9" />
+
+
 The read() method can locate the record using the animal ID:
+
+<img width="975" height="313" alt="image" src="https://github.com/user-attachments/assets/5e9bed61-3aa3-4c33-8c8e-215538bc8948" />
+
 
 The update() method modifies an existing record:
 
+<img width="975" height="321" alt="image" src="https://github.com/user-attachments/assets/92356150-c611-4e8c-9914-7838de730021" />
+
+
 The delete() method can remove a record:
 
+<img width="975" height="389" alt="image" src="https://github.com/user-attachments/assets/7a672ac2-7924-422b-9959-56a831071278" />
+
+
 Dashboard Filtering 
+
+<img width="975" height="733" alt="image" src="https://github.com/user-attachments/assets/9fe9fbad-d28b-4824-87a2-c2cd9541c8d1" />
+
 
 **Tests**
 Testing was used to verify the Python CRUD Module and Grazioso Salvare Rescue Dashboard functioned as intended. 
@@ -111,3 +145,15 @@ The ProjectTwoDashboard.ipynb notebook was tested to verify the interactive dash
 7)	Geolocation Map
 
 While in development, an issue occurred in MongoDB filtering queries where $in operator was incorrectly entered as “Sin” which caused for certain data to not populate. This is one of many examples of why testing is important to ensure an application runs successfully. 
+
+<img width="975" height="493" alt="image" src="https://github.com/user-attachments/assets/9bcc449f-b6b7-4237-9c0c-5dc0bef50a42" />
+
+<img width="975" height="492" alt="image" src="https://github.com/user-attachments/assets/b921c752-141d-4da7-8e12-ecc9b83b41b1" />
+
+<img width="975" height="495" alt="image" src="https://github.com/user-attachments/assets/2febee2b-7ab2-403d-a3ee-9bf498e82732" />
+
+<img width="975" height="493" alt="image" src="https://github.com/user-attachments/assets/c619e5be-3819-4650-99fd-eb3f115dd1be" />
+
+<img width="975" height="428" alt="image" src="https://github.com/user-attachments/assets/b8ddb651-7c89-4e13-92eb-48b796d6c306" />
+
+<img width="975" height="399" alt="image" src="https://github.com/user-attachments/assets/ffe20a0e-7c73-4314-af83-6101f9300d9e" />
